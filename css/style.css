@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* #top-intro {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    display: block;
+} */
+
+#introImage {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.introText {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#leftIntroText {
+    position: absolute;
+    left: 8px;
+    bottom: 16px;
+
+}
+
+#rightIntroText {
+    position: absolute;
+    right: 8px;
+    bottom: 16px;
+}
+
+#topIntroBox {
+    position: relative; 
+    /* text-align: center; */
+    /* margin-bottom: 0px; */
+    /* display: block; */
+    /* works, don't understand it. ask why. 
+    copied some from internet. 
+    seems like I only need the position property */
+}
+
+#navButtons > a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    background-color: grey;
+    color: white;
+    font-size: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#navBlock {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+}
+
+#middleNavButton {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sectionOfContent {
+    display: block;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.linkBox > a {
+    display: inline-block;
+    padding: 50px;
+    border: black solid 2px;
+    background-color: yellow;
+    border-radius: 8px;
+    /* how do i make the boxes squares. the text currently stretches the box out. */
+}
+
+.flavorBox {
+    display: inline-block;
+    width: 25vw;
+    height: 25vw;
+    padding: 50px;
+    border: black solid 2px;
+    background-color: yellow;
+    border-radius: 8px;
+}
